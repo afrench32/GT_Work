@@ -1,0 +1,22 @@
+<resources>
+    <string-array name="cities">
+        <item>Atlanta, GA</item>
+        <item>Athens, GA</item>
+        <item>New York City, NY</item>
+        <item>Austin, TX</item>
+        <item>Seattle, WA</item>
+        <item>San Francisco, CA</item>
+        <item>Washington D.C.</item>
+        <item>Boston, MA</item>
+        <item>Tampa, FL</item>
+        <item>Las Vegas, NV</item>
+    </string-array>
+    <string name="app_name">SDP Salary Calculator</string>
+    <string name="error_salary">Salary Required</string>
+    <string name="error_city_equal">Cities Must Be Different</string>
+    <string name="dollar_sign">$</string>
+    <string name="from">From:</string>
+    <string name="to">To:</string>
+    <string name="equivalent_salary">Equivalent Salary:</string>
+    <string name="run">RUN</string>
+</resources>

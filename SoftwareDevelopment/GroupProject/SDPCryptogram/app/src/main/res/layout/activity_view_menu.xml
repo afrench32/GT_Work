@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ViewMenuActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/incomplete_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="handleViewIncompleteClick"
+            android:text="@string/view_menu_page_incomplete_button" />
+
+        <Button
+            android:id="@+id/complete_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="handleViewCompleteClick"
+            android:text="@string/view_menu_page_complete_button" />
+
+        <Button
+            android:id="@+id/statistics_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="handleViewStatisticsClick"
+            android:text="@string/view_menu_page_statistics_button" />
+
+        <Button
+            android:id="@+id/back_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="handleMainMenuClick"
+            android:text="@string/view_menu_page_back_button" />
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

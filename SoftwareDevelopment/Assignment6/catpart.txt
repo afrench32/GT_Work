@@ -1,0 +1,44 @@
+# Filename
+Presence of a file corresponding to the name:
+	Not present. [error]
+	Present.
+
+# File
+File size:
+	Empty. [single] [property EmptyFile]
+	Not empty.
+Number of words in file:
+	One. [if !EmptyFile]
+	Many. [if !EmptyFile]
+Special characters in file:
+	Yes. [property SpecialCharacters] [if !EmptyFile]
+	No. [if !EmptyFile]
+
+# Integer
+Value of integer:
+	Less than 0. [error] [if !EmptyFile]
+	0. [single] [if !EmptyFile]
+	In [1,25]. [if !EmptyFile]
+	26. [single] [if !EmptyFile]
+	Greater than 26. [if !EmptyFile]
+
+# r flag
+Reverse flag on/off:
+	On.
+	Off.
+
+# removed characters
+Remove letters:
+	Yes. [property RemoveLetters]
+	No.
+Remove special characters:
+	Yes. [property RemoveSC]
+	No. 
+Number of characters to be removed:
+	0. [single] [if !RemoveLetters && !RemoveSC]
+	1. [single] [if RemoveLetters || RemoveSC]
+	Greater than 1. [if RemoveLetters || RemoveSC]
+Occurences of set of removed character(s) in the file:
+	None for any. [single] [if RemoveLetters || RemoveSC]
+	None for some, >=1 for some. [single] [if RemoveLetters || RemoveSC]
+	One or more for all. [if RemoveLetters || RemoveSC]

@@ -1,0 +1,6 @@
+# File Format:
+# Node, Neighbor, Weight, Neighbor, Weight  (repeat as needed)
+#
+A,B,-50
+B,C,-50
+C,A,-50

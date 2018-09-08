@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.2">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>20</x>
+      <y>20</y>
+      <w>350</w>
+      <h>250</h>
+    </coordinates>
+    <panel_attributes>Player
+--
+firstName: String
+lastName: String
+userName: String
+email: String
+attemptedCryptograms: Map&lt;String, Attempted&gt;
+--
+createCryptogram(puzzleName: String, 
+     solution: String, cypher: Map&lt;char, char&gt;, 
+     maxAttempts: int): boolean
+viewUnsolvedCryptograms(void): String
+viewCryptogram(puzzleName: String): String
+solveCryptogram(puzzleName: String): String
+viewCompletedCryptograms(void): String
+viewCryptogramStatistics(void): String</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>410</x>
+      <y>210</y>
+      <w>220</w>
+      <h>180</h>
+    </coordinates>
+    <panel_attributes>Cryptogram
+--
+puzzleName: String
+creator: String
+dateCreated: Date
+solution: String
+cypher: Map&lt;char, char&gt;
+maxAttempts: int
+numSolved: int
+firstThreeSolvers: List&lt;String&gt;</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>430</x>
+      <y>80</y>
+      <w>190</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;utility&gt;&gt;
+CryptogramsDB</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>60</x>
+      <y>350</y>
+      <w>300</w>
+      <h>140</h>
+    </coordinates>
+    <panel_attributes>Attempted
+--
+currAttempts: int
+solved: boolean
+dateCompleted: Date
+--
+checkSolution(solution: String)
+incrementCurrAttempts(void): void
+flagAsCompleted(solved: boolean): void</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>460</x>
+      <y>20</y>
+      <w>130</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;utility&gt;&gt;
+ApplicationUI</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>290</x>
+      <y>260</y>
+      <w>40</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-
+m1=#
+m2=1</panel_attributes>
+    <additional_attributes>10.0;90.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>350</x>
+      <y>360</y>
+      <w>80</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>60.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>430</x>
+      <y>140</y>
+      <w>190</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;utility&gt;&gt;
+PlayersDB</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>

@@ -1,0 +1,80 @@
+<resources>
+
+    <string name="app_name">SDPCryptogram</string>
+
+    <string name="landing_page_welcome_tv">Welcome! Choose what you\'d like to do</string>
+    <string name="landing_page_login_button">Login</string>
+    <string name="landing_page_createAccount_button">Create Account</string>
+
+    <string name="ca_page_welcome">Enter your account credentials</string>
+    <string name="ca_page_fn">FirstName</string>
+    <string name="ca_page_ln">LastName</string>
+    <string name="ca_page_un">Username</string>
+    <string name="ca_page_email">emailAddress@server.domain</string>
+    <string name="ca_page_ca_button">Create account!</string>
+
+    <string name="login_page_welcome">Enter your username</string>
+    <string name="login_page_un">Username</string>
+    <string name="login_page_login_button">Log in!</string>
+
+    <string name="main_menu_page_create_button">Create a cryptogram</string>
+    <string name="main_menu_page_solve_button">Solve a cryptogram</string>
+    <string name="main_menu_page_view_button">View cryptograms</string>
+    <string name="main_menu_page_logout_button">Log out</string>
+
+    <string name="view_menu_page_incomplete_button">View incomplete cryptograms</string>
+    <string name="view_menu_page_complete_button">View complete cryptograms</string>
+    <string name="view_menu_page_created_button">View created cryptograms</string>
+    <string name="view_menu_page_statistics_button">View cryptogram statistics</string>
+    <string name="view_menu_page_back_button">Main menu</string>
+
+    <string name="create_cg_page_pn">PuzzleName</string>
+    <string name="create_cg_page_sol">Solution</string>
+    <string name="create_cg_page_randomize_cypher_button">Randomize cypher</string>
+    <string name="create_cg_page_customize_cypher_button">Enter custom cypher</string>
+    <string name="create_cg_page_encode_solution_button">Re-Encode solution</string>
+    <string name="create_cg_page_max_attempts">Attempts allowed</string>
+    <string name="create_cg_page_save_button">Save!</string>
+    <string name = "a">  a</string>
+    <string name = "b">  b</string>
+    <string name = "c">  c</string>
+    <string name = "d">  d</string>
+    <string name = "e">  e</string>
+    <string name = "f">  f</string>
+    <string name = "g">  g</string>
+    <string name = "h">  h</string>
+    <string name = "i">  i</string>
+    <string name = "j">  j</string>
+    <string name = "k">  k</string>
+    <string name = "l">  l</string>
+    <string name = "m">  m</string>
+    <string name = "n">  n</string>
+    <string name = "o">  o</string>
+    <string name = "p">  p</string>
+    <string name = "q">  q</string>
+    <string name = "r">  r</string>
+    <string name = "s">  s</string>
+    <string name = "t">  t</string>
+    <string name = "u">  u</string>
+    <string name = "v">  v</string>
+    <string name = "w">  w</string>
+    <string name = "x">  x</string>
+    <string name = "y">  y</string>
+    <string name = "z">  z</string>
+
+
+    <string name="choose_cg_page_pn">PuzzleName</string>
+    <string name="choose_cg_page_solve_button">Solve!</string>
+
+    <string name="solve_cg_page_cypher_button">Use cypher</string>
+    <string name="solve_cg_page_reset_button">Reset Cypher</string>
+    <string name="solve_cg_page_enter_solution_button">Enter solution</string>
+
+
+    <string name="view_complete_cg_page_text">Completed cryptograms</string>
+
+    <string name="view_incomplete_cg_page_text">Incomplete cryptograms</string>
+
+    <string name="view_statistics_cg_page_text">Cryptogram statistics</string>
+
+</resources>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainMenuActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/welcome_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+
+        <Button
+            android:id="@+id/create_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="handleCreateClick"
+            android:text="@string/main_menu_page_create_button" />
+
+        <Button
+            android:id="@+id/solve_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="handleSolveClick"
+            android:text="@string/main_menu_page_solve_button" />
+
+        <Button
+            android:id="@+id/view_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="handleViewClick"
+            android:text="@string/main_menu_page_view_button" />
+
+        <Button
+            android:id="@+id/logout_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="handleLogoutClick"
+            android:text="@string/main_menu_page_logout_button" />
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
