@@ -3,8 +3,7 @@ Code (with variable names, etc. changed to mitigate current student Google searc
 
 ## Fall 2017
 
-**Computer Networks**: graduate-level introduction to computer networking. Substantial programming projects included
-
+**Computer Networks**: graduate-level introduction to computer networking.
 *Grade received: A*
 
 From the OMSCS website:
