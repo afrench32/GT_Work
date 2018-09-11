@@ -32,7 +32,7 @@ From the OMSCS website:
 
 ## Summer 2018
 
-**Software Development Process**: Graduate-level, project-based in the process of designing, developing, testing, and maintaining software.
+**Software Development Process**: Graduate-level, project-based in the process of designing, developing, testing, and maintaining software. Semester project required designing, documenting, building, and testing an Android app for creating and solving cryptograms. Served as project manager, lead designer, and lead programmer on the four-person team.
 
 *Grade received: A*
 
